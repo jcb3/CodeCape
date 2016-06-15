@@ -1,16 +1,16 @@
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus,
 .dropdown-menu li a:hover {
-	box-shadow: -5px 0px 0px 0px #c14359,220px 0px 0px 0px #e64c66 inset;
+	box-shadow: -5px 0px 0px 0px #c14359,220px 0px 0px 0px #fcbc10 inset;
 }
 .blog-tags li:hover {
-	box-shadow: inset 0 -120px #e64c66;
+	box-shadow: inset 0 -120px #fcbc10;
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus,
 .dropdown-menu li a:hover,
 .top,
 .tp-leftarrow.default, .tp-rightarrow.default, #slidecontrol-prev, #slidecontrol-next,
 #myTab .active a, #myTab li a:hover,
-.team:hover .id, .skill,
+.team:hover .id, .youth,
 #blog .posting.hover-active .get,
 .portfolio-block .get:hover,
 .hover .get:hover,
@@ -23,7 +23,7 @@ input[type="submit"],
 .widget-tags li a,
 .ui-accordion-header span,
 #qt .pager a.selected, #home-slide .pager a.selected{
-	background-color: #e64c66;
+	background-color: #fcbc10;
 }
 .ui-accordion-header-active span,
 .ui-accordion-header:hover span,
@@ -38,10 +38,10 @@ input[type="submit"],
 .portfolio-block .get:after, .hover .get:after,
 .post-title h3:hover .post-title-icon:after,
 .contact-details h1:after, .contact-details h1:hover{
-	box-shadow: 0 0 0 3px #e64c66;
+	box-shadow: 0 0 0 3px #fcbc10;
 }
 .button:after{
-	box-shadow: 0 0 0 2px #e64c66;
+	box-shadow: 0 0 0 2px #fcbc10;
 }
 a,
 .color,
@@ -60,7 +60,7 @@ a,
 .blog-tags a, .blog-tags .date, .commentlists .comment-body .comment-meta .reply a,
 .search-widget input[type="search"], #searchform input[type="text"], .search-widget button i,
 .blog-tags li a i,.meta-name a{
-	color: #e64c66;
+	color: #fcbc10;
 }
 a:hover,
 .blog-tags li a:hover{
@@ -81,10 +81,10 @@ blockquote,
 .search-widget input[type="search"]:focus, #searchform input[type="text"]:focus,
 .blog-tags li:hover,
 #qt .pager a, #home-slide .pager a{
-	border-color: #e64c66 !important;
+	border-color: #fcbc10 !important;
 }
 .comment-body:hover:before,.right:hover:before{
-	border-right: 15px solid #e64c66;
+	border-right: 15px solid #fcbc10;
 }
 .bg, .bg:hover{
 	color: #252525;

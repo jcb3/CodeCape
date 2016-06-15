@@ -56,11 +56,11 @@ function parallaxs(){
 ================================================== */	
 function appears(){
 	'use strict';
-	jQuery("#skill").appear(function(t){
+	jQuery("#youth").appear(function(t){
 	jQuery(".percentage").easyPieChart({
 		animate:4e3,
 		trackColor:"#fff",
-		barColor:"#e64c66",
+		barColor:"#fcbc10",
 		scaleColor:false,
 		lineCap:"butt",
 		lineWidth:20,
