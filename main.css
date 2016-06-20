@@ -2710,6 +2710,15 @@ margin: 5px;
 }
 }
 @media (max-width: 480px) {
+
+.inner h1{
+	font-size: 25px;
+}
+
+.navbar-default .navbar-brand img {
+  height: 40px;
+}
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form,
 .navbar-default .navbar-toggle{
 border-color: #252525 !important;
