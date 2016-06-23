@@ -53,7 +53,7 @@ function parallaxs(){
 }
 /* ==================================================
 				Counter
-================================================== */	
+================================================== */
 function appears(){
 	'use strict';
 	jQuery("#youth").appear(function(t){
@@ -101,7 +101,7 @@ function hovers(){
 			jQuery(this).addClass("exclusive");
 		}
 	   );
-	
+
 	jQuery(".posting").hover(
 		function () {
 			jQuery(this).addClass("hover-active");
@@ -117,35 +117,35 @@ function hovers(){
 /* ==================================================
 				Flexslider
 ================================================== */
-function flexsliders(){
-	'use strict';
-	jQuery('#feature-flex').flexslider({			
-            animation: "fade",
-            directionNav: false,
-            controlNav: false,
-            pauseOnHover: true,
-			slideshowSpeed:5000,
-			animationSpeed:800,
-            direction: "horizontal", //Direction of slides
-            after: function (slider) {
-                jQuery('.feature-list li').removeClass('active');
-                jQuery('.feature-list li:eq(' + slider.currentSlide + ')').addClass("active");
-            }
-        });
-		
-	jQuery('.feature-list li').click(function () {
-            jQuery('.feature-list li').removeClass('active');
-            jQuery(this).addClass('active');
-            jQuery('#feature-flex').flexslider(jQuery(this).index());
-        });
-
-        var $testiflex = jQuery('#feature-flex');
-        jQuery('#flex-feature-next').click(function () {
-            $testiflex.flexslider("next");
-        });
-        jQuery('#flex-feature-prev').click(function () {
-            $testiflex.flexslider("prev");
-        });	
+// function flexsliders(){
+// 	'use strict';
+// 	jQuery('#feature-flex').flexslider({
+//             animation: "fade",
+//             directionNav: false,
+//             controlNav: false,
+//             pauseOnHover: true,
+// 			slideshowSpeed:5000,
+// 			animationSpeed:800,
+//             direction: "horizontal", //Direction of slides
+//             after: function (slider) {
+//                 jQuery('.feature-list li').removeClass('active');
+//                 jQuery('.feature-list li:eq(' + slider.currentSlide + ')').addClass("active");
+//             }
+//         });
+//
+// 	jQuery('.feature-list li').click(function () {
+//             jQuery('.feature-list li').removeClass('active');
+//             jQuery(this).addClass('active');
+//             jQuery('#feature-flex').flexslider(jQuery(this).index());
+//         });
+//
+//         var $testiflex = jQuery('#feature-flex');
+//         jQuery('#flex-feature-next').click(function () {
+//             $testiflex.flexslider("next");
+//         });
+//         jQuery('#flex-feature-prev').click(function () {
+//             $testiflex.flexslider("prev");
+//         });	
 /* ==================================================
 				Blog
 ================================================== */
@@ -174,7 +174,7 @@ function flexsliders(){
 			});
 			jQuery('#slidecontrol-prev').click(function () {
 				$control.flexslider("prev");
-        });	
+        });
 }
 /* ==================================================
 					Team
@@ -204,18 +204,18 @@ function team(){
 }
 /* ==================================================
 				accordion contact
-================================================== */	
+================================================== */
 function toogles(){
-	'use strict';	
+	'use strict';
 	jQuery('#toggle-view li').click(function () {
 		var text = jQuery(this).children('div.panel');
-			jQuery('div.panel').slideUp('normal');	
+			jQuery('div.panel').slideUp('normal');
 		if (text.is(':hidden')) {
 			text.slideDown('normal');
-			jQuery(this).children('.ui-accordion-header').addClass('ui-accordion-header-active');		
+			jQuery(this).children('.ui-accordion-header').addClass('ui-accordion-header-active');
 		} else {
 			text.slideUp('normal');
-			jQuery(this).children('.ui-accordion-header').removeClass('ui-accordion-header-active');		
+			jQuery(this).children('.ui-accordion-header').removeClass('ui-accordion-header-active');
 		}
 			jQuery(this).next().slideDown('normal');
 	});
