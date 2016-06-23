@@ -523,7 +523,7 @@ blockquote{
 }
 #pall-home {
 	background: #252525 url('assets/img/home.jpg');
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	z-index: -1;
 }
 #pall-contact {
