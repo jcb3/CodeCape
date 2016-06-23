@@ -145,37 +145,37 @@ function hovers(){
 //         });
 //         jQuery('#flex-feature-prev').click(function () {
 //             $testiflex.flexslider("prev");
-//         });	
+//         });
 /* ==================================================
 				Blog
 ================================================== */
-	jQuery('#flex-blog').flexslider({
-            animation: "slide",
-            directionNav: false,
-            controlNav: false,
-            pauseOnHover: true,
-            slideshowSpeed: 4000,
-            direction: "horizontal"
-        });
+	// jQuery('#flex-blog').flexslider({
+  //           animation: "slide",
+  //           directionNav: false,
+  //           controlNav: false,
+  //           pauseOnHover: true,
+  //           slideshowSpeed: 4000,
+  //           direction: "horizontal"
+  //       });
 /* ==================================================
 				page-Blog
 ================================================== */
-	jQuery('#flex-blog-page').flexslider({
-            animation: "slide",
-            directionNav: false,
-            controlNav: false,
-            pauseOnHover: true,
-            slideshowSpeed: 4000,
-            direction: "horizontal"
-        });
-		var $control = jQuery('#flex-blog-page');
-			jQuery('#slidecontrol-next').click(function () {
-				$control.flexslider("next");
-			});
-			jQuery('#slidecontrol-prev').click(function () {
-				$control.flexslider("prev");
-        });
-}
+// 	jQuery('#flex-blog-page').flexslider({
+//             animation: "slide",
+//             directionNav: false,
+//             controlNav: false,
+//             pauseOnHover: true,
+//             slideshowSpeed: 4000,
+//             direction: "horizontal"
+//         });
+// 		var $control = jQuery('#flex-blog-page');
+// 			jQuery('#slidecontrol-next').click(function () {
+// 				$control.flexslider("next");
+// 			});
+// 			jQuery('#slidecontrol-prev').click(function () {
+// 				$control.flexslider("prev");
+//         });
+// }
 /* ==================================================
 					Team
 ================================================== */
