@@ -248,7 +248,7 @@ function magnificPopups(){
 	hovers();
 	appears();
 	hovers();
-	flexsliders();
+	// flexsliders();
 	team();
 	toogles();
 	mixitups();
