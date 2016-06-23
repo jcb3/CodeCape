@@ -591,14 +591,14 @@ section::after {
 	background-image: linear-gradient(135deg, #fff 50%, #1b75ba 50%);
 }
 #youth::before,#adult::before,#team::before,#counter::before,#blog-date::before {
-	bottom: -90px;
+	/*bottom: -90px;
 	left: 0;
-	background-image: linear-gradient(135deg, #1b75ba 50%, #fff 50%);
+	background-image: linear-gradient(135deg, #1b75ba 50%, #fff 50%);*/
 }
 #youth::before, #adult::before {
-	z-index: 99;
+	/*z-index: 99;
 	bottom: -90px;
-	left: 0;
+	left: 0;*/
 }
 #portfolio::before,#blog::before {
 	right: 0;
@@ -616,9 +616,9 @@ section::after {
 	box-shadow: 5px -5px 6px rgba(0, 0, 0, 0.05);
 }
 #team::before,#youth::before,#adult::before, #counter::before, #blog-date::before{
-	-webkit-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.05);
+	/*-webkit-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.05);
-	box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.05);
+	box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.05);*/
 }
 /* right */
 #programs::before,#lastproject::before,#portfolio::before,#blog::before, #contact::before{
