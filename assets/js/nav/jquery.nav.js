@@ -144,13 +144,10 @@
 			var $link = $(e.currentTarget);
 			var $parent = $link.parent();
 			var newLoc = '#' + self.getHash($link);
-			if ($link[0] === 'a.header-fix') {
-				console.log("link2 ->" + $link);
-				
-			} else {
-				console.log($link[0])
+
+			if(self.config.currentClass === "header-fix") {
+				alert('bam');
 			}
-			console.log($link);
 			if(!$parent.hasClass(self.config.currentClass)) {
 				//Start callback
 				if(self.config.begin) {
