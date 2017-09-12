@@ -145,7 +145,10 @@
 			var $parent = $link.parent();
 			var newLoc = '#' + self.getHash($link);
 
-			console.log(window.location);
+			if (window.location.href.endsWith("apply.html")) {
+				window.location.href = $link;
+				return;
+			}
 			if(!$parent.hasClass(self.config.currentClass)) {
 				//Start callback
 				if(self.config.begin) {
