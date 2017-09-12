@@ -67,11 +67,12 @@
                         <li><a class="header-fix" href="http://www.marquettetechinstitute.org/index.html#contact">CONTACT</a></li>
                     </ul>
 		    <script>
+
 			    var links = document.getElementsByClassName('header-fix');
-			    links.on("click", function(e) {
+			    links.addEventListener("click", function(e) {
 				    e.preventDefault()
 				    window.location.href = this.prop('href')
-			    });
+			    }, false);
 		    </script>
                 </div>
                 <!--/.nav-collapse -->
