@@ -60,12 +60,18 @@
           </button>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right header-fix">
                         <li><a href="http://www.marquettetechinstitute.org/index.html#home">HOME</a></li>
                         <li><a href="http://www.marquettetechinstitute.org/index.html#programs">PROGRAMS</a></li>
                         <li><a href="http://www.marquettetechinstitute.org/index.html#quote">ABOUT</a></li>
                         <li><a href="http://www.marquettetechinstitute.org/index.html#contact">CONTACT</a></li>
                     </ul>
+		    <script>
+			    $('.header-fix li a').on("click", function(e) {
+				    e.preventDefault()
+				    window.location.href = this.prop('href')
+			    });
+		    </script>
                 </div>
                 <!--/.nav-collapse -->
             </div>
