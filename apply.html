@@ -67,7 +67,7 @@
                         <li><a href="http://www.marquettetechinstitute.org/index.html#contact">CONTACT</a></li>
                     </ul>
 		    <script>
-			    $('.header-fix li a').on("click", function(e) {
+			    document.getElementsByClassName('header-fix').on("click", function(e) {
 				    e.preventDefault()
 				    window.location.href = this.prop('href')
 			    });
