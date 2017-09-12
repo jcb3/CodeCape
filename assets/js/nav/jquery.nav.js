@@ -144,7 +144,7 @@
 			var $link = $(e.currentTarget);
 			var $parent = $link.parent();
 			var newLoc = '#' + self.getHash($link);
-			if ($link === 'a.header-fix') {
+			if ($link[0] === 'a.header-fix') {
 				console.log("link ->" + $link);
 				
 			} else {
