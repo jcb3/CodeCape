@@ -145,6 +145,7 @@
 			var $parent = $link.parent();
 			var newLoc = '#' + self.getHash($link);
 			
+			console.log($link, $parent, newLoc);
 			if(!$parent.hasClass(self.config.currentClass)) {
 				//Start callback
 				if(self.config.begin) {
@@ -182,7 +183,7 @@
 			}
 
 			e.preventDefault();
-			console.log("event -> " + e.target.name);
+
 		},
 		
 		scrollChange: function() {
