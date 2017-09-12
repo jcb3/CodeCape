@@ -145,7 +145,7 @@
 			var $parent = $link.parent();
 			var newLoc = '#' + self.getHash($link);
 
-			console.log(self.config.currentClass);
+			console.log($parent.currentClass);
 			if(!$parent.hasClass(self.config.currentClass)) {
 				//Start callback
 				if(self.config.begin) {
