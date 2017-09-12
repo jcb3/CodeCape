@@ -145,9 +145,7 @@
 			var $parent = $link.parent();
 			var newLoc = '#' + self.getHash($link);
 
-			if(self.config.currentClass === "header-fix") {
-				alert('bam');
-			}
+			console.log(self.config.currentClass);
 			if(!$parent.hasClass(self.config.currentClass)) {
 				//Start callback
 				if(self.config.begin) {
