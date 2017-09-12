@@ -270,3 +270,12 @@ jQuery(document).ready(function($) {
 		});
 	});
 });
+
+/* =================================================
+				CodeLabs
+================================================== */
+
+$('#code-labs-one-details').on("click", function(e) {
+	e.preventDefault();
+	console.log("functional");
+})
