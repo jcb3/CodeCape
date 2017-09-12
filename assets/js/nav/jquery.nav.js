@@ -146,9 +146,11 @@
 			var newLoc = '#' + self.getHash($link);
 			if ($link == 'a.header-fix') {
 				console.log("link ->" + $link);
-				return;
+				
+			} else {
+				console.log("not found")
 			}
-			console.log($link, $parent, newLoc);
+			console.log($link);
 			if(!$parent.hasClass(self.config.currentClass)) {
 				//Start callback
 				if(self.config.begin) {
