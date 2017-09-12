@@ -145,10 +145,10 @@
 			var $parent = $link.parent();
 			var newLoc = '#' + self.getHash($link);
 			if ($link[0] === 'a.header-fix') {
-				console.log("link ->" + $link);
+				console.log("link2 ->" + $link);
 				
 			} else {
-				console.log("not found")
+				console.log($link[0])
 			}
 			console.log($link);
 			if(!$parent.hasClass(self.config.currentClass)) {
