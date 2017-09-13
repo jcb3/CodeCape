@@ -764,7 +764,8 @@ blockquote {
 }
 
 #pall-apply {
-    background: #252525 url('assets/img/LaunchCodeClass_compressed.jpg');
+/*     background: #252525 url('assets/img/LaunchCodeClass_compressed.jpg'); */
+    background: #252525 url('CodeCape/assets/img/LaunchCodeClass_compressed.jpg');
     z-index: -1;
 }
 
