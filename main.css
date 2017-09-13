@@ -758,6 +758,16 @@ blockquote {
     z-index: -1;
 }
 
+#pall-codelabs {
+    background: #252525 url('assets/img/LaunchCodeStephenMyers.jpg');
+    z-index: -1;
+}
+
+#pall-apply {
+    background: #252525 url('assets/img/LaunchCodeClass.jpg');
+    z-index: -1;
+}
+
 #pall-contact {
     background: #252525 url('assets/img/city.jpg');
     background-attachment: fixed;
