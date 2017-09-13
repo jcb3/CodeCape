@@ -3615,3 +3615,11 @@ a#code-labs-one-details {
 .whiten{
 	color:#f4f5f7;
 }
+
+@media screen and (max-width: 576px) {
+    #codelabs-one-title {
+       
+        font-size: .8em;
+        line-height: .83em;
+    }
+}
