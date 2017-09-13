@@ -3617,7 +3617,7 @@ a#code-labs-one-details {
 }
 
 @media screen and (max-width: 576px) {
-    #codelabs-one-title {
+    .codelabs-one-title {
        
         font-size: .8em;
         line-height: .83em;
