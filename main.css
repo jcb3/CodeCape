@@ -3599,7 +3599,8 @@ a#code-labs-one-details {
 .codelabs-one-title {
     color: white;
     font-weight: 550;
+    padding-top:20px;
 }
 .whiten{
-	color:white;
+	color:#f4f5f7;
 }
