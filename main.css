@@ -3635,7 +3635,8 @@ a#code-labs-one-details {
 }
 
 .codelabs-one-title {
-    color: white;
+    color: palegoldenrod;
+    font-style: italic;
     font-weight: 550;
     padding-top:20px;
 }
@@ -3645,7 +3646,6 @@ a#code-labs-one-details {
 
 @media screen and (max-width: 576px) {
     .codelabs-one-title {
-       
         font-size: .8em;
         line-height: .83em;
     }
