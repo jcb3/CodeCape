@@ -758,12 +758,12 @@ blockquote {
 }
 
 #pall-codelabs {
-    background: #252525 url('assets/img/LaunchCodeStephenMyers.jpg');
+    background: #252525 url('assets/img/class.jpg');
     z-index: -1;
 }
 
 #pall-apply {
-    background: #252525 url('assets/img/LaunchCodeClass_compressed.jpg');
+    background: #252525 url('assets/img/Stephen-pic.jpg');
     z-index: -1;
 }
 
@@ -938,6 +938,7 @@ section::after {
 }
 .adult-body {
     background-color: orange;
+    color:white;
 }
 
 
