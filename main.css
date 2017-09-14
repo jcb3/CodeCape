@@ -3633,11 +3633,13 @@ a#code-labs-one-details {
     background-color: rgba(0, 0, 0, 0.03);
     color: white;
 }
-
+#codelabs-faq-question-list li a span.codelabs-one-title{
+  color: palengoldenrod;
+  font-style: italic;
+}
 .codelabs-one-title {
-    color: palegoldenrod;
-    font-style: italic;
-    font-weight: 550;
+    color: white;
+    font-weight: 600;
     padding-top:20px;
 }
 .whiten{
