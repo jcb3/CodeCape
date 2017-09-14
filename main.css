@@ -793,6 +793,12 @@ section::after {
 
 #home::before,
 #home::after,
+#adult-header::before,
+#apply-header::before,
+#apply::before,
+#adult::before,
+#adult::after,
+#apply::after,
 #programs::before,
 #programs::after,
 #youth::before,
@@ -821,6 +827,8 @@ section::after {
 }
 
 #home::after,
+#adult::after,
+#apply::after,
 #programs::after,
 #youth::after,
 #adult::after,
@@ -835,6 +843,21 @@ section::after {
 	background-image: linear-gradient(45deg, #ecf0f1 50%, #fff 50%);*/
 }
 
+#adult::before {
+    /*z-index: 99;
+	left: 0;
+	background-image: linear-gradient(45deg, #ecf0f1 50%, #fff 50%);*/
+}
+
+#apply::before {
+    /*z-index: 99;
+	left: 0;
+	background-image: linear-gradient(45deg, #ecf0f1 50%, #fff 50%);*/
+}
+
+
+
+
 #programs::before,
 #lastproject::before {
     /*right: 0;
@@ -843,6 +866,7 @@ section::after {
 
 #youth::before,
 #adult::before,
+#apply::before,
 #team::before,
 #counter::before,
 #blog-date::before {
@@ -873,7 +897,7 @@ section::after {
 
 /* left */
 
-#home::before {
+#home::before, #adult::before, #apply::before {
     /*-webkit-box-shadow: 5px -5px 6px rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: 5px -5px 6px rgba(0, 0, 0, 0.05);
 	box-shadow: 5px -5px 6px rgba(0, 0, 0, 0.05);*/
@@ -882,6 +906,7 @@ section::after {
 #team::before,
 #youth::before,
 #adult::before,
+#apply::before,
 #counter::before,
 #blog-date::before {
     /*-webkit-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.05);
@@ -907,7 +932,7 @@ section::after {
    #home
    ========================================================================== */
 
-#home {
+#home, #adult, #apply {
     position: relative;
     width: 100%;
     height: 100%;
