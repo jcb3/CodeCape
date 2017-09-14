@@ -759,13 +759,13 @@ blockquote {
 }
 
 #pall-codelabs {
-    background: #252525 url('assets/img/LaunchCodeStephenMyers.jpg');
+    background: #252525 url('http://placekitten.com/200/300');
     z-index: -1;
 }
 
 #pall-apply {
-/*     background: #252525 url('assets/img/LaunchCodeClass_compressed.jpg'); */
-    background: #252525 url('CodeCape/assets/img/LaunchCodeClass_compressed.jpg');
+/*     background: #252525 url('http://placekitten.com/200/300'); */
+    background: #252525 url('');
     z-index: -1;
 }
 
